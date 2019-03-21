@@ -74,7 +74,7 @@ body {
   background: radial-gradient(transparent 50%, rgba(0, 0, 0, 0.5)),
     url("../images/texture-1.jpg") no-repeat center center;
   background-size: cover;
-  padding: 3rem 6rem;
+  padding: 5rem 6rem;
 
   &:after {
         content: "";
@@ -188,6 +188,7 @@ body {
 .bg-employee {
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../images/employee-with-customer.jpg') center center no-repeat;
     background-size: cover;
+    min-height: 300px;
 }
 
 @include media-breakpoint-up(md) {
